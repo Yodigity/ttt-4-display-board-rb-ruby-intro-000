@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-
+board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 def display_board(tiles)
   puts " #{tiles[0]} | #{tiles[1]} | #{tiles[2]} "
   puts "-----------"
@@ -8,3 +8,5 @@ def display_board(tiles)
   puts "-----------"
   puts " #{tiles[6]} | #{tiles[7]} | #{tiles[8]} "
 end
+
+display_board(board)
